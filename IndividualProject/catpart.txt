@@ -1,0 +1,63 @@
+# Filename
+Presence of the file name:
+	Not present.			[error]
+	Present.				[property fileName]
+
+# File
+Size:
+	Empty.				[single] [if fileName][property emptyFile]
+	Not empty.			[single] [if fileName]	
+Number of lines outputted:
+	None.				[single] [if !emptyFile] 
+	One.					[if !emptyFile]
+	Many.					[if !emptyFile]
+
+# Options
+Presence of a list of options:
+	Not present.			[error]
+	Present.			
+Valid options:
+	-f.			[property fieldOptions]
+	-c.			[property charOptions]
+	-d.			[property delimiterOptions]
+	others.			[error]
+
+
+# Fields		
+Presence of characters or fields index:
+	Not present.			[if fieldOptions || charOptions ][error]
+	Present.				
+Valid integer field input:
+	0.				[error]
+	>0.				[single][property postiveInt]
+								
+Presence of a range:
+	Not present.		
+	Present.			[property hasRange]
+Dash (-) used to define range?:
+	Yes.				[single][if hasRange && postiveInt]
+	No.					[if hasRange && postiveInt] [error]
+Range valid?:
+	Invalid range.				[if hasRange && postiveInt] [error]
+	Yes.					[if hasRange && postiveInt] 
+Presence of multiple fields:
+	Yes.				[property hasMultipleFields]
+	No.
+Comma (,) used to separate fields?:
+	Yes.				[single][if hasMultipleFields && postiveInt]
+	No.					[if hasMultipleFields && postiveInt] [error]
+
+
+# Delimiter
+Presence of delimiter:
+	Not present.		[if delimiterOptions][error]
+	Present.			[if delimiterOptions][property delimiterChar]
+	
+Lines printed completely:
+	Yes.				
+	No.				[if !delimiterOptions && !delimiterChar] [error]
+Delimiter length:
+	One.				[single][if delimiterChar]
+	More than one.				[if delimiterChar] [error]
+
+	

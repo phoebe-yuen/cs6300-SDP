@@ -1,0 +1,504 @@
+
+Test Case 1  		<error>
+   Presence of the file name :  Not present
+
+
+Test Case 2  		<single>
+   Size :  Empty
+
+
+Test Case 3  		<single>
+   Size :  Not empty
+
+
+Test Case 4  		<single>
+   Number of lines outputted :  None
+
+
+Test Case 5  		<error>
+   Presence of a list of options :  Not present
+
+
+Test Case 6  		<error>
+   Valid options :  others
+
+
+Test Case 7  		<error>  (follows [if])
+   Presence of characters or fields index :  Not present
+
+
+Test Case 8  		<error>
+   Valid integer field input :  0
+
+
+Test Case 9  		<single>
+   Valid integer field input :  >0
+
+
+Test Case 10 		<single>
+   Dash (-) used to define range? :  Yes
+
+
+Test Case 11 		<error>  (follows [if])
+   Dash (-) used to define range? :  No
+
+
+Test Case 12 		<error>  (follows [if])
+   Range valid? :  Invalid range
+
+
+Test Case 13 		<single>
+   Comma (,) used to separate fields? :  Yes
+
+
+Test Case 14 		<error>  (follows [if])
+   Comma (,) used to separate fields? :  No
+
+
+Test Case 15 		<error>  (follows [if])
+   Presence of delimiter :  Not present
+
+
+Test Case 16 		<error>  (follows [if])
+   Lines printed completely :  No
+
+
+Test Case 17 		<single>
+   Delimiter length :  One
+
+
+Test Case 18 		<error>  (follows [if])
+   Delimiter length :  More than one
+
+
+Test Case 19 		(Key = 2.0.2.2.1.2.0.1.0.0.1.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -f
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 20 		(Key = 2.0.2.2.1.2.0.1.0.0.2.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -f
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 21 		(Key = 2.0.2.2.1.2.0.2.0.0.1.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -f
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 22 		(Key = 2.0.2.2.1.2.0.2.0.0.2.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -f
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 23 		(Key = 2.0.2.2.2.2.0.1.0.0.1.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -c
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 24 		(Key = 2.0.2.2.2.2.0.1.0.0.2.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -c
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 25 		(Key = 2.0.2.2.2.2.0.2.0.0.1.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -c
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 26 		(Key = 2.0.2.2.2.2.0.2.0.0.2.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -c
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 27 		(Key = 2.0.2.2.3.2.0.1.0.0.1.0.2.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -d
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  Present
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 28 		(Key = 2.0.2.2.3.2.0.1.0.0.2.0.2.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -d
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  Present
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 29 		(Key = 2.0.2.2.3.2.0.2.0.0.1.0.2.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -d
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  Present
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 30 		(Key = 2.0.2.2.3.2.0.2.0.0.2.0.2.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  One
+   Presence of a list of options          :  Present
+   Valid options                          :  -d
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  Present
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 31 		(Key = 2.0.3.2.1.2.0.1.0.0.1.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -f
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 32 		(Key = 2.0.3.2.1.2.0.1.0.0.2.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -f
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 33 		(Key = 2.0.3.2.1.2.0.2.0.0.1.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -f
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 34 		(Key = 2.0.3.2.1.2.0.2.0.0.2.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -f
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 35 		(Key = 2.0.3.2.2.2.0.1.0.0.1.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -c
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 36 		(Key = 2.0.3.2.2.2.0.1.0.0.2.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -c
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 37 		(Key = 2.0.3.2.2.2.0.2.0.0.1.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -c
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 38 		(Key = 2.0.3.2.2.2.0.2.0.0.2.0.0.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -c
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  <n/a>
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 39 		(Key = 2.0.3.2.3.2.0.1.0.0.1.0.2.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -d
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  Present
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 40 		(Key = 2.0.3.2.3.2.0.1.0.0.2.0.2.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -d
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Not present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  Present
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 41 		(Key = 2.0.3.2.3.2.0.2.0.0.1.0.2.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -d
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  Yes
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  Present
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
+
+Test Case 42 		(Key = 2.0.3.2.3.2.0.2.0.0.2.0.2.1.0.)
+   Presence of the file name              :  Present
+   Size                                   :  <n/a>
+   Number of lines outputted              :  Many
+   Presence of a list of options          :  Present
+   Valid options                          :  -d
+   Presence of characters or fields index :  Present
+   Valid integer field input              :  <n/a>
+   Presence of a range                    :  Present
+   Dash (-) used to define range?         :  <n/a>
+   Range valid?                           :  <n/a>
+   Presence of multiple fields            :  No
+   Comma (,) used to separate fields?     :  <n/a>
+   Presence of delimiter                  :  Present
+   Lines printed completely               :  Yes
+   Delimiter length                       :  <n/a>
+
